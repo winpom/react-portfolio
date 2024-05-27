@@ -1,15 +1,20 @@
 .header {
     background-color: gray;
     display: flex;
-    flex-direction: column; /* This makes sure the h1 and image are stacked vertically */
-    align-items: center; /* Center-aligns the content horizontally */
+    flex-direction: column;
+    align-items: center; 
     padding-right: 1rem;
     padding-left: 1rem;
+    position: relative; 
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .header h1 {
-    margin: 0; /* Removes default margin from h1 to avoid extra spacing */
-    padding: 1rem 0; /* Adds padding to h1 for spacing */
+    margin: 0;
+    padding: 1rem 0;
     font-size: 2.5em;
 }
 
@@ -21,8 +26,17 @@
 }
 
 .logo {
+    height: 10vh;
     max-height:  75px;
     margin: 5px;
-    position: fixed;
-    left: 5px
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        position: static; /* Changes position to static to allow normal flow */
+        margin-bottom: 10px; /* Adds margin to the bottom to separate logo from title */
+    }
 }

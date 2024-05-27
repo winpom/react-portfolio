@@ -3,8 +3,8 @@ import React from "react";
 function AboutPage() {
     return <section>
         <h1>About Me</h1>
-        <img src="../../images/win-headshot-circle.png" alt="Win Pomerantz Headshot"
-            class="headshot" />
+        <img src="../../assets/images/win-headshot-circle.png" alt="Win Pomerantz Headshot"
+            className="headshot" />
         <h2>Software Engineer, Marketer, Lifelong Student</h2>
         <p>
             I'm Win Pomerantz, a marketer turned aspiring web developer. With over seven years
