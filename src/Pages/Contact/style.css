@@ -1,3 +1,5 @@
+@import '../../App.css';
+
 .contact-section {
     padding: 20px;
 }
@@ -24,20 +26,20 @@ textarea {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--light);
     border-radius: 4px;
     resize: vertical;
 }
 
 .error-message {
-    color: red;
+    color: var(--error);
     margin-top: 10px;
 }
 
 .submit-button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: var(--blue);
+    color: var(--light);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -47,5 +49,5 @@ textarea {
 }
 
 .submit-button:hover {
-    box-shadow: 100 10 100px black;
+    box-shadow: 100 10 100px var(--dark);
 }
