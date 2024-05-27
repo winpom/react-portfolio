@@ -1,4 +1,5 @@
 import React from 'react';
+import "./style.css"
 
 function Footer() {
     const icons = [
@@ -16,36 +17,15 @@ function Footer() {
         }
     ]
 
-    const LinkStyle = {
-        textDecoration: "none",
-        color: "black",
-        cursor: "pointer",
-        margin: "0 5px"
-    }
-
-    const FooterStyle = {
-        backgroundColor: "gray",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "20px 0"
-    }
-
-    const IconsContainerStyle = {
-        display: "flex",
-        justifyContent: "center",
-        marginTop: "10px"
-    }
-
     let date = new Date().getFullYear();
 
     return (
-        <footer style={FooterStyle}>
+        <footer className="footer">
+            <div>Win Pomerantz</div>
             <div>©{date}</div>
-            <div style={IconsContainerStyle}>
+            <div className="icon-container">
                 {icons.map(icon => (
-                    <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer" style={LinkStyle}>
+                    <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer" className="footer-icon">
                         <i className={icon.name}></i>
                     </a>
                 ))}
