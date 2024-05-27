@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Page from "./components/Page";
 
 
 // site components
@@ -10,16 +11,16 @@ function App() {
 
   const [pages] = useState([
     {
-      name: "about",
+      name: "About",
     },
     {
-      name: "portfolio",
+      name: "Portfolio",
     },
     {
-      name: "contact",
+      name: "Contact",
     },
     {
-      name: "resume",
+      name: "Resume",
     }
   ])
 
@@ -30,7 +31,7 @@ function App() {
       <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage}/>
     </Header>
     <main>
-      {/* <Page/> */}
+      <Page currentPage={currentPage}/>
     </main>
     <Footer/>
   </div>

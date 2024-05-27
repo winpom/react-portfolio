@@ -1,5 +1,5 @@
-import React, {useCallback, useEffect} from 'react';
-import "./style.css"
+import React, { useEffect } from 'react';
+import "./style.css";
 
 function Nav(props) {
     const {
@@ -9,21 +9,28 @@ function Nav(props) {
     } = props;
 
     useEffect(() => {
-        document.title = currentPage.name
-    }, [currentPage])
+        document.title = currentPage.name;
+    }, [currentPage]);
 
     return (
         <nav className="nav-container">
-            <ul>
-                {pages.map((page) => {
-                    return <li className={currentPage.name === page.name && "active"} key={page.name}><span onClick={() => setCurrentPage(page)}>
-                        {page.name}
-                    </span>
+            <ul className="nav-list">
+                {pages.map((page) => (
+                    <li 
+                        className={`nav-item ${currentPage.name === page.name ? 'active' : ''}`} 
+                        key={page.name}
+                    >
+                        <span 
+                            className="nav-link" 
+                            onClick={() => setCurrentPage(page)}
+                        >
+                            {page.name}
+                        </span>
                     </li>
-                })}
+                ))}
             </ul>
         </nav>
-    )
+    );
 }
 
 export default Nav;

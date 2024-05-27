@@ -1,12 +1,28 @@
 .header {
     background-color: gray;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column; /* This makes sure the h1 and image are stacked vertically */
+    align-items: center; /* Center-aligns the content horizontally */
     padding-right: 1rem;
     padding-left: 1rem;
 }
 
+.header h1 {
+    margin: 0; /* Removes default margin from h1 to avoid extra spacing */
+    padding: 1rem 0; /* Adds padding to h1 for spacing */
+    font-size: 2.5em;
+}
+
 .banner-img {
-    max-width: 100vw;
+    width: 100vw;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+.logo {
+    max-height:  75px;
+    margin: 5px;
+    position: fixed;
+    left: 5px
 }
