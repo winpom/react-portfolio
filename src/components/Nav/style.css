@@ -1,5 +1,7 @@
+@import '../../App.css';
+
+
 .nav-container {
-    /* background-color: #f8f9fa; */
     padding: 20px 0 20px 0;
 }
 
@@ -19,18 +21,18 @@
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: var(--gray);
     padding: 10px 15px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: var(--blue);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .active .nav-link {
-    /* background-color: bisque; */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
     transition: box-shadow 0.3s ease;

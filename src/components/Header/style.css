@@ -1,5 +1,8 @@
+@import '../../App.css';
+
 .header {
-    background-color: gray;
+    color: var(--dark);
+    background-color: var(--livid);
     display: flex;
     flex-direction: column;
     align-items: center; 

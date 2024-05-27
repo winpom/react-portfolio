@@ -49,5 +49,6 @@ textarea {
 }
 
 .submit-button:hover {
-    box-shadow: 100 10 100px var(--dark);
+    box-shadow: 100 10 100px black;
+    background-color: var(--gray);
 }

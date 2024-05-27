@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.css"; // Import CSS file for ContactPage styling
+import "./style.css";
 
 function ContactPage() {
     const [formState, setFormState] = useState({
@@ -36,7 +36,7 @@ function ContactPage() {
             }
         } else {
             if (!value.length) {
-                setErrorMessage(`${name} is required.`);
+                setErrorMessage(`Message is required.`);
             } else {
                 setErrorMessage("");
             }
