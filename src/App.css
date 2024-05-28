@@ -7,6 +7,14 @@
   --error: red;
 }
 
+* {
+  color: var(--dark);
+}
+
+section {
+  background-color: var(--light);
+}
+
 .App {
   text-align: center;
 }

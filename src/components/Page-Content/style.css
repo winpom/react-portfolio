@@ -8,23 +8,25 @@ h4 {
     text-align: center;
 }
 
+h1 {
+    margin: 0;
+    padding: 15px
+}
+
 p {
     font-size: 1rem;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin: 0 20vw 0 20vw; 
+    padding: 0 0 15px 0;
     min-width: 200px;
 }
 
-.page-content {
-    padding-right: 1rem;
-    padding-left: 1rem;
+section {
+    box-shadow: 0 0px 6px rgba(0, 0, 0, .5);
+    width: 100vw;
 }
 
-.headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: .5em;
-    width: 25%;
-    min-width: 170px;
+.page-content {
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
 }
+

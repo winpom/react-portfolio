@@ -21,7 +21,7 @@
 
 .nav-link {
     text-decoration: none;
-    color: var(--gray);
+    color: var(--dark);
     padding: 10px 15px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -29,7 +29,7 @@
 
 .nav-link:hover {
     color: var(--blue);
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .active .nav-link {
