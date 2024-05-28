@@ -1,6 +1,7 @@
 @import '../../App.css';
 
 .contact-section {
+    background-color: var(--light);
     padding: 0 0 20px 0;
 }
 
@@ -8,10 +9,17 @@
     font-size: 2rem;
 }
 
+.contact-section label {
+    font-weight: 500;
+}
+
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
+    padding: 30px;
     text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
 }
 
 .form-group {
@@ -27,12 +35,13 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 97%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid var(--light);
     border-radius: 4px;
     resize: vertical;
+    margin: auto;
 }
 
 .error-message {
@@ -43,13 +52,14 @@ textarea {
 .submit-button {
     padding: 10px 20px;
     background-color: var(--blue);
-    color: var(--light);
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     display: inline-block; 
     transition: all 250ms linear;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, .4);
 }
 
 .submit-button:hover {

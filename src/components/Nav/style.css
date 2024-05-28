@@ -1,8 +1,54 @@
 @import '../../App.css';
+/* 
+.nav-container {
+    width: 100vw;
+    padding: 20px 0 0 0;
+    border-bottom: 2px solid var(--dark);
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin: 0 15px -1px 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--dark);
+    padding: 10px 15px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    display: block;
+    border: 2px solid transparent; 
+    border-top-left-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem; 
+}
+
+.nav-link:hover {
+    color: var(--blue);
+}
+
+.active .nav-link {
+    color: #495057;
+    background-color: var(--light);
+    border-top: 2px solid var(--dark);
+    border-left: 2px solid var(--dark);
+    border-right: 2px solid var(--dark);
+} */
 
 
 .nav-container {
     padding: 20px 0 20px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100vw
 }
 
 .nav-list {
@@ -29,11 +75,12 @@
 
 .nav-link:hover {
     color: var(--blue);
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
 }
 
 .active .nav-link {
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
-    transition: box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: var(--light);
 }

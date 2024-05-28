@@ -1,84 +1,70 @@
 @import '../../App.css';
 
-.resume-section {
+.resume-section h1 {
+    font-size: 2em;
+    padding-bottom: 0;
+}
+
+.resume-content {
     padding: 20px;
     max-width: 800px;
     margin: auto;
     font-family: Arial, sans-serif;
     background-color: white;
     box-shadow: 0 0px 6px rgba(0, 0, 0, .5);
+    border-radius: 8px;
 }
 
-.resume-section a {
+.resume-content a {
     color: black;
     text-decoration: none;
 }
 
-.resume-section a:hover {
-    color: black;
+.resume-content a:hover {
     text-decoration: underline;
 }
 
-.resume-section h1 {
-    font-size: 2em;
-    margin: 15px 0 20px 0;
+.resume-content h1, .resume-content h2, .resume-content h3,
+.resume-content h4, .resume-content h5, .resume-content h6 {
+    margin: 15px 0;
+    color: #333;
 }
 
-.resume-section h2 {
+.resume-content h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.resume-content h2 {
     font-size: 1.5em;
     padding-bottom: .75em;
     border-bottom: .3em solid var(--dark);
 }
 
-.resume-section h3 {
-    font-size: 1.5em;
+.resume-content h3 {
+    font-size: 1em;
     padding: 1em .25em .25em;
+    font-weight: bold;
 }
 
-.resume-section h4 {
+.resume-content h4 {
     font-size: 1.25em;
     padding-bottom: .5em;
 }
 
-.resume-section h5 {
+.resume-content h5 {
     font-size: 1em;
 }
 
-.resume-section h6 {
+.resume-content h6 {
     font-size: .75em;
 }
 
-.resume-content {
-    padding: 20px;
-    border-radius: 8px;
-}
-
 .resume-content p, .resume-content ul {
-    margin: 0 0 10px;
+    margin: 0 0 5px;
     line-height: 1.5;
-}
-
-.resume-content h1 {
-    font-size: 2em;
-    margin: 5px 0 0 0;
-    font-weight: 600;
-    color: #333;
-}
-
-.resume-content h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 1em;
-    font-weight: 600;
-    color: #333;
-}
-
-.resume-content h3 {
-    margin-top: 0px;
-    margin-bottom: 30px;
-    font-size: 1em;
-    font-weight: bold;
-    color: #333;
 }
 
 .resume-content ul {
@@ -89,15 +75,35 @@
     list-style-type: disc;
 }
 
-.download-button {
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     margin-top: 20px;
+}
+
+.job-title .location {
+    white-space: nowrap;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin: 10px;
+}
+
+.download-button {
+    margin: 0 10px 0px 20px ;
     padding: 10px 20px;
     background-color: var(--blue);
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
+    transition: all 0.1s linear;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
 }
 
 .download-button:hover {

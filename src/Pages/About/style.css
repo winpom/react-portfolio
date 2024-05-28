@@ -1,10 +1,5 @@
-.headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: .5em;
-    width: 25%;
-    min-width: 170px;
+.about-section {
+    background-color: var(--light);
 }
 
 .about-section p {
@@ -16,4 +11,14 @@
 
 .about-section h1 {
     font-size: 2rem;
+}
+
+.headshot {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }

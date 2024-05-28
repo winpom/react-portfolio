@@ -1,6 +1,5 @@
 @import '../../App.css';
 
-
 .footer {
     color: var(--dark);
     background-color: var(--livid);
@@ -10,6 +9,7 @@
     justify-content: center;
     padding: 20px 0;
     font-size: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 
 .footer-icon {
@@ -17,6 +17,15 @@
     color: var(--dark);
     cursor: pointer;
     margin: 0 5px;
+    transition: all 250ms linear;
+}
+
+.footer-icon:hover {
+    color: white;
+}
+
+.footer div {
+    font-weight: 500;
 }
 
 .icon-container {

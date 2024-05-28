@@ -7,12 +7,7 @@
   --error: red;
 }
 
-* {
-  color: var(--dark);
-}
-
 section {
-  background-color: var(--light);
   width: 100vw;
 }
 
@@ -35,6 +30,11 @@ h1 {
 .page-content {
   padding: 20px 0 20px 0;
 }
+
+section.page-content {
+  background-color: var(--light);
+}
+
 
 .App {
   text-align: center;
