@@ -9,6 +9,7 @@
     padding-right: 1rem;
     padding-left: 1rem;
     position: relative; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -33,7 +34,7 @@
 
 .logo {
     height: 10vh;
-    max-height:  75px;
+    max-height: 75px;
     margin: 5px;
     position: absolute;
     left: 5px;
@@ -42,7 +43,7 @@
 
 @media (max-width: 768px) {
     .logo {
-        position: static; /* Changes position to static to allow normal flow */
-        margin-bottom: 10px; /* Adds margin to the bottom to separate logo from title */
+        position: static; 
+        margin-bottom: 10px;
     }
 }

@@ -13,6 +13,27 @@
 
 section {
   background-color: var(--light);
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px
+}
+
+.centered {
+  text-align: center;
+}
+
+.page-content {
+  padding: 20px 0 20px 0;
 }
 
 .App {
@@ -49,6 +70,7 @@ section {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

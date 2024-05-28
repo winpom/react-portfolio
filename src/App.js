@@ -17,10 +17,10 @@ function App() {
       name: "Portfolio",
     },
     {
-      name: "Contact",
+      name: "Resume",
     },
     {
-      name: "Resume",
+      name: "Contact",
     }
   ])
 

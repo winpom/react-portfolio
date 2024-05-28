@@ -15,15 +15,15 @@ function ResumePage() {
             <h1>My Resume</h1>
             <div className="resume-content">
                 <h1><strong>WIN POMERANTZ</strong></h1>
-                <h3>Phone: (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br>
+                <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br>
                 LinkedIn: <a href="https://www.linkedin.com/in/Win-Pomerantz">/Win-Pomerantz</a> | Portfolio: <a href="https://WinPom.github.io">WinPom.github.io</a> | GitHub: <a href="https://github.com/winpom">/winpom</a></h3>
                 <p>
                     Full Stack Web Developer with a robust background in brand and digital marketing. Recently completed a certificate in Full Stack Web Development from University of California, Berkeley, bringing expertise in JavaScript, React, Node.js, and other modern web technologies. Known for creativity, teamwork, executing projects from ideation to deployment, and a strong sense of humor. Lifelong student, fast learner, team player.
                 </p>
                 <h2>TECHNICAL SKILLS</h2>
-                <p>Languages/Frameworks: JavaScript (ES6+), HTML5, CSS3, React, Node.js, Express, Handlebars, jQuery</p>
-                <p>Databases: MongoDB, MySQL, SQL, NoSQL</p>
-                <p>Additional Skills: Agile Development, Mobile-First Design, Cross-Functional Collaboration, UI/UX Design, Certified ScrumMaster, Adobe Photoshop</p>
+                <p><strong>Languages/Frameworks</strong>: JavaScript (ES6+), HTML5, CSS3, React, Node.js, Express, Handlebars, jQuery</p>
+                <p><strong>Databases</strong>: MongoDB, MySQL, SQL, NoSQL</p>
+                <p><strong>Additional Skills</strong>: Agile Development, Mobile-First Design, Cross-Functional Collaboration, UI/UX Design, Certified ScrumMaster, Adobe Photoshop</p>
                 <h2>PROJECTS</h2>
                 <p><strong>The Doggy Dog Breed Quiz</strong> | GitHub Repository | Deployed Project</p>
                 <ul>

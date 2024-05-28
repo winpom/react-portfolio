@@ -38,11 +38,11 @@ function PortfolioPage() {
     return (
         <section className="portfolio-section">
             <h1>My Portfolio</h1>
-            <h3>Here are a few projects I'm proud of!</h3>
+            <h2>Here are a few projects I'm proud of:</h2>
             <div className="project-grid">
                 {projects.map((project, index) => (
                     <div key={index} className="project-card">
-                        <h2>{project.title}</h2>
+                        <h3>{project.title}</h3>
                         <div className="image-container">
                             <img src={project.image} alt={project.title} className="project-image" />
                             <div className="overlay">

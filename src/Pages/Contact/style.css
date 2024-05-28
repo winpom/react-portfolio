@@ -1,7 +1,11 @@
 @import '../../App.css';
 
 .contact-section {
-    padding: 20px;
+    padding: 0 0 20px 0;
+}
+
+.contact-section h1 {
+    font-size: 2rem;
 }
 
 .contact-form {

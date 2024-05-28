@@ -1,49 +1,59 @@
 @import '../../App.css';
 
-h1 {
+.resume-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, .5);
+}
+
+.resume-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.resume-section a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.resume-section h1 {
     font-size: 2em;
     margin: 15px 0 20px 0;
 }
 
-h2 {
+.resume-section h2 {
     font-size: 1.5em;
     padding-bottom: .75em;
     border-bottom: .3em solid var(--dark);
 }
 
-h3 {
+.resume-section h3 {
     font-size: 1.5em;
     padding: 1em .25em .25em;
 }
 
-h4 {
+.resume-section h4 {
     font-size: 1.25em;
     padding-bottom: .5em;
 }
 
-h5 {
+.resume-section h5 {
     font-size: 1em;
 }
 
-h6 {
+.resume-section h6 {
     font-size: .75em;
 }
 
-.resume-section {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-}
-
 .resume-content {
-    background-color: var(--light);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.resume-content p, .resume-content ul, .resume-content li {
+.resume-content p, .resume-content ul {
     margin: 0 0 10px;
     line-height: 1.5;
 }
@@ -69,16 +79,6 @@ h6 {
     font-size: 1em;
     font-weight: bold;
     color: #333;
-}
-
-.resume-section a {
-    color: black;
-    text-decoration: none;
-}
-
-.resume-section a:hover {
-    color: black;
-    text-decoration: underline;
 }
 
 .resume-content ul {
