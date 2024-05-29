@@ -1,4 +1,4 @@
-.alt2 {
+:root {
   --lapis-lazuli: #346184;
   --eerie-black: #151C1C;
   --bistre: #3A2523;
@@ -9,6 +9,7 @@
   --liver: #66463B;
   --chestnut: #A24E36;
   --timberwolf: #D3D6D6;
+  --error: red;
 }
 
 /* :root {
@@ -17,12 +18,7 @@
   --blue: #124E66;
   --livid: #748D92;
   --light: #D3D9D4;
-  --error: red;
 } */
-
-section {
-  width: 100vw;
-}
 
 h1,
 h2,
@@ -36,19 +32,25 @@ h1 {
   padding: 15px
 }
 
+.portfolio-section h1, 
+.about-section h1,
+.contact-section h1  {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
 .centered {
   text-align: center;
 }
 
 .page-content {
-  padding: 20px 0 20px 0;
+  padding: 0 0 20px 0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
 }
 
 section.page-content {
-  background-color: var(--light);
+  background-color: var(--french-gray);
 }
-
 
 .App {
   text-align: center;

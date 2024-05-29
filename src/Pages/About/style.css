@@ -1,16 +1,33 @@
+.about-text {
+    margin-top: 15px;
+    background-color: var(--timberwolf);
+    border: solid 1px var(--bistre);
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
+}
+
 .about-section {
-    background-color: var(--light);
+    background-color: var(--french-gray);
+    min-width: 500px;
+    max-width: 700px;
+    margin: auto;
 }
 
 .about-section p {
     font-size: 1rem;
-    margin: 0 20vw 0 20vw;
-    padding: 0 0 15px 0;
-    min-width: 200px;
+    /* margin: 0 20vw 0 20vw; */
+    padding: 0 20px 15px 20px;
 }
 
 .about-section h1 {
     font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.about-section h2 {
+    border-bottom: 3px solid var(--eerie-black);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin: 20px;
 }
 
 .headshot {
