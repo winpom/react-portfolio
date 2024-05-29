@@ -12,6 +12,10 @@ function Footer() {
             link: "https://www.linkedin.com/in/win-pomerantz/"
         },
         {
+            name: "fa-brands fa-instagram",
+            link: "https://www.instagram.com/winpomerantz/"
+        },
+        {
             name: "fa-solid fa-envelope",
             link: "mailto:win.pomerantz@gmail.com"
         }
