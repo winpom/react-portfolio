@@ -5,6 +5,30 @@
     padding-bottom: 0;
 }
 
+.increased-margins {
+    margin: 0 0 10px 0;
+}
+
+.proficiencies {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    color: var(--light);
+}
+.proficiency-list {
+    margin: 10px;
+    padding: 5px 35px;
+    border-radius: 25px;
+    background-color: var(--gray);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .5);
+}
+.proficiency-list ul {
+    padding: 0;
+}
+.proficiency-list h3 {
+    margin-top: 0;
+}
+
 .resume-content {
     padding: 20px;
     max-width: 800px;

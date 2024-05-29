@@ -14,8 +14,35 @@ function ResumePage() {
             <h1>My Resume</h1>
             <div className="button-container">
                 <button onClick={downloadResume} className="download-button">Download Resume as PDF</button>
-            </div>            
+            </div>
+            <section class="proficiencies">
+                <div class="proficiency-list">
+                    <h3>Front-end Proficiencies</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Responsive design</li>
+                        <li>React</li>
+                        <li>Handlebars</li>
+                    </ul>
+                </div>
+                <div class="proficiency-list">
+                    <h3>Back-end Proficiencies</h3>
+                    <ul>
+                        <li>APIs</li>
+                        <li>Node</li>
+                        <li>Express</li>
+                        <li>MySQL, Sequelize</li>
+                        <li>MongoDB, Mongoose</li>
+                        <li>REST</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+            </section>
             <section>
+                <h1 className="increased-margins">Full Resume</h1>
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>
                     <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br>
