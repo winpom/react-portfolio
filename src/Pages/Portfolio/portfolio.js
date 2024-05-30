@@ -23,7 +23,7 @@ function PortfolioPage() {
         },
         {
             title: "The Regal Dog Blog",
-            image: "/assets/images/regal-dog.jpg",
+            image: "/assets/images/regal-dog.png",
             deployedLink: "https://winpom.github.io/personal-blog-challenge/",
             githubLink: "https://github.com/winpom/personal-blog-challenge"
         },
