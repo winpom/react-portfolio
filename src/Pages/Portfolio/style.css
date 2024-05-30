@@ -3,10 +3,12 @@
 .portfolio-section {
     text-align: center;
     padding: 0 0 1rem 0;
-    background-color: var(--french-gray);
+    background-color: var(--paynes-gray);
 }
 
 .portfolio-section h2 {
+    color: var(--timberwolf);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     font-size: 1.5em;
     margin: 0 0 15px 0
 }

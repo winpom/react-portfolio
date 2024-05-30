@@ -33,8 +33,8 @@ h1 {
 }
 
 .portfolio-section h1, 
-.about-section h1,
-.contact-section h1  {
+.about-section h1 {
+  color: var(--timberwolf);
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
@@ -44,13 +44,12 @@ h1 {
 }
 
 .page-content {
-  padding: 0 0 20px 0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
 }
 
-section.page-content {
-  background-color: var(--french-gray);
-}
+/* section.page-content {
+  background-color: var(--paynes-gray);
+} */
 
 .App {
   text-align: center;
