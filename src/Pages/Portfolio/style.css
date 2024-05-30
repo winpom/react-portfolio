@@ -30,7 +30,7 @@
     width: 300px;
     height: 300px;
     background-color: transparent;
-    /* border: 3px solid var(--pop); */
+    border: 5px solid var(--pop);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
@@ -80,7 +80,7 @@
 
 .project-links a {
     text-decoration: none;
-    color: var(--cta);
+    color: var(--light);
     font-weight: bold;
     margin: 0 10px;
 }
