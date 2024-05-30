@@ -1,15 +1,18 @@
 @import '../../App.css';
+
 .nav-container {
     background-color: var(--chestnut);
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    width: 100vw
+    width: 100vw;
+    overflow: hidden;
 }
 
 .nav-list {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; 
     margin: 0;
     padding: 0;
     font-size: 1.4em;
@@ -31,7 +34,6 @@
 
 .nav-link:hover {
     color: var(--blue);
-
 }
 
 .active .nav-link {
@@ -40,4 +42,23 @@
     transition: all 0.3s ease;
     color: var(--eerie-black);
     background-color: var(--french-gray);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-list {
+        font-size: 1.2em;
+    }
+    .nav-item {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-list {
+        align-items: center; /* Center items */
+    }
+    .nav-item {
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
 }

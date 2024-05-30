@@ -1,3 +1,26 @@
+:root {
+  --lapis-lazuli: #346184;
+  --eerie-black: #151C1C;
+  --bistre: #3A2523;
+  --french-gray: #C9C0C6;
+  --gray: #7D8181;
+  --columbia-blue: #BEE1F3;
+  --paynes-gray: #476D85;
+  --liver: #66463B;
+  --chestnut: #A24E36;
+  --timberwolf: #D3D6D6;
+  --error: red;
+}
+
+/* :root {
+  --dark: #212A31;
+  --gray: #2E3944;
+  --blue: #124E66;
+  --livid: #748D92;
+  --light: #D3D9D4;
+} */
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +33,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px
+}
+
+.portfolio-section h1, 
+.about-section h1 {
+  color: var(--timberwolf);
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.centered {
+  text-align: center;
+}
+
+.page-content {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
 }
