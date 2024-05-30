@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -25,6 +25,10 @@ function App() {
   ])
 
   const [currentPage, setCurrentPage] =useState(pages[0]);
+
+  useEffect(() => {
+    document.title = `Win Pomerantz${currentPage.name === 'About' ? '' : ' - ' + currentPage.name}`;
+  }, [currentPage]);
 
   return <div>
     <Header>

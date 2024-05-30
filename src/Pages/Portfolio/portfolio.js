@@ -42,7 +42,6 @@ function PortfolioPage() {
             <div className="project-grid">
                 {projects.map((project, index) => (
                     <div key={index} className="project-card">
-                        <h3>{project.title}</h3>
                         <div className="image-container">
                             <img src={project.image} alt={project.title} className="project-image" />
                             <div className="overlay">

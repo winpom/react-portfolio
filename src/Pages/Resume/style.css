@@ -1,34 +1,31 @@
 @import '../../App.css';
 
 section.resume-section {
-    background-color: var(--columbia-blue);
+    background-color: var(--dark);
 }
 
 .resume-section {
-    background-color: var(--columbia-blue);
+    background-color: var(--dark);
 }
 
 .resume-section h1 {
+    color: var(--light);
     font-size: 2em;
     padding-bottom: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-}
-
-.increased-margins {
-    margin: 0 0 10px 0;
 }
 
 .proficiencies {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    color: white;
+    color: var(--light);
 }
 .proficiency-list {
     margin: 10px;
     padding: 5px 35px;
-    border-radius: 25px;
-    background-color: var(--paynes-gray);
+    border: 3px solid var(--pop);
+    background-color: var(--dark);
     box-shadow: 0 5px 6px rgba(0, 0, 0, .5);
 }
 .proficiency-list ul {
@@ -41,15 +38,15 @@ section.resume-section {
 .resume-content {
     padding: 20px;
     max-width: 800px;
-    margin: 10px;
+    margin: auto;
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: var(--gray);
     box-shadow: 0 0px 6px rgba(0, 0, 0, .5);
-    border-radius: 8px;
+    border: 3px solid var(--pop);
 }
 
 .resume-content a {
-    color: var(--eerie-black);
+    color: var(--dark);
     text-decoration: none;
 }
 
@@ -60,7 +57,7 @@ section.resume-section {
 .resume-content h1, .resume-content h2, .resume-content h3,
 .resume-content h4, .resume-content h5, .resume-content h6 {
     margin: 15px 0;
-    color: var(--bistre);
+    color: var(--dark);
 }
 
 .resume-content h1 {
@@ -74,7 +71,7 @@ section.resume-section {
 .resume-content h2 {
     font-size: 1.5em;
     padding-bottom: .75em;
-    border-bottom: .3em solid var(--eerie-black);
+    border-bottom: .3em solid var(--dark);
 }
 
 .resume-content h3 {
@@ -129,8 +126,8 @@ section.resume-section {
 .download-button {
     margin: 0 10px 0px 20px ;
     padding: 10px 20px;
-    background-color: var(--paynes-gray);
-    color: white;
+    background-color: var(--cta);
+    color: var(--light);
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -141,7 +138,8 @@ section.resume-section {
 }
 
 .download-button:hover {
-    background-color: var(--lapis-lazuli);
+    background-color: var(--gray);
+    color: var(--dark);
 }
 
 .education {

@@ -8,7 +8,7 @@ import PageContent from '../Page-Content';
 
 function Page({ currentPage }) {
     const renderPage = () => {
-        if (currentPage.name === 'About') {
+        if (currentPage.name === 'Win Pomerantz') {
             return <AboutPage />
         } else if (currentPage.name === 'Contact') {
             return <ContactPage />
