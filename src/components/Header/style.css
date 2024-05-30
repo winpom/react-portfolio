@@ -30,16 +30,16 @@
     height: auto;
     max-height: 170px;
     object-fit: cover;
-    padding: 35px 0 0 0;
+    padding: 45px 0 0 0;
 }
 
 .logo {
-    height: 10vh;
-    min-height: 50px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 250px;
+    height: 35%;
     margin: 5px;
     position: absolute;
-    left: 5px;
+    left: 10px;
     top: 5px;
     border-radius: 50%;
     box-shadow: 2px 5px 15px rgba(0, 0, 0, .5);
