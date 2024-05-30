@@ -29,6 +29,7 @@ function Nav(props) {
                     </li>
                 ))}
             </ul>
+            <img className="banner-img" src="/assets/images/site-banner.png" alt="Site Banner: Golden Gate Bridge" />
         </nav>
     );
 }

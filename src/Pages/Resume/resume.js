@@ -41,7 +41,7 @@ function ResumePage() {
                     </ul>
                 </div>
             </section>
-            <section>
+            <section className="increased-padding">
                 <h1 className="increased-margins">Full Resume</h1>
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>

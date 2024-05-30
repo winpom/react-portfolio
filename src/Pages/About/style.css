@@ -1,13 +1,13 @@
 .about-text {
     margin-top: 15px;
-    background-color: var(--timberwolf);
-    border: solid 1px var(--bistre);
+    background-color: var(--light);
+    border: solid 1px var(--pop);
     border-radius: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
 }
 
 .about-section {
-    background-color: var(--paynes-gray);
+    background-color: var(--dark);
     padding: 0 20px 20px 20px;
     margin: auto;
 }
@@ -18,13 +18,20 @@
     padding: 0 20px 15px 20px;
 }
 
+.about-banner {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
 .about-section h1 {
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  color: var(--light);
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
 .about-section h2 {
-    border-bottom: 3px solid var(--eerie-black);
+    border-bottom: 3px solid var(--pop);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     margin: 20px;
 }
