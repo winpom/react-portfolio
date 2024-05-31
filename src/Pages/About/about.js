@@ -16,7 +16,6 @@ function AboutPage() {
                 I'm currently diving into the world of coding through the full-time UC Berkeley Coding Bootcamp.
                 I'm passionate about blending creativity with technical skills to build captivating web experiences.
             </p>
-            <p className="centered"> Join me as I transition from marketing to coding and explore the exciting intersection of art and technology! </p>
         </section>
     </section>
 }
