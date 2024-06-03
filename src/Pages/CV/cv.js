@@ -5,15 +5,15 @@ function ResumePage() {
     const downloadResume = () => {
         const anchor = document.createElement("a");
         anchor.href = "/assets/Win-Pomerantz-Resume.pdf";
-        anchor.download = "Win-Pomerantz-Resume.pdf";
+        anchor.download = "Win-Pomerantz-CV.pdf";
         anchor.click();
     };
 
     return (
         <section className="resume-section">
-            <h1>My Resume</h1>
+            <h1>My CV</h1>
             <div className="button-container">
-                <button onClick={downloadResume} className="download-button">Download Resume as PDF</button>
+                <button onClick={downloadResume} className="download-button">Download CV as PDF</button>
             </div>
             <section className="proficiencies">
                 <div className="proficiency-list">
@@ -42,7 +42,7 @@ function ResumePage() {
                 </div>
             </section>
             <section className="increased-padding">
-                <h1 className="increased-margins">Full Resume</h1>
+                {/* <h1 className="increased-margins">Full Resume</h1> */}
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>
                     <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br>

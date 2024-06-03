@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutPage from '../About/about';
 import PortfolioPage from '../Portfolio/portfolio';
-import ResumePage from '../Resume/resume';
+import CVPage from '../CV/cv';
 // import ContactPage from '../Contact/contact';
 
 function MainContent() {
@@ -13,8 +13,8 @@ function MainContent() {
             <section id="portfolio">
                 <PortfolioPage />
             </section>
-            <section id="resume">
-                <ResumePage />
+            <section id="cv">
+                <CVPage />
             </section>
             {/* <section id="contact">
                 <ContactPage />
