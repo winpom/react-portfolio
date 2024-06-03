@@ -16,7 +16,7 @@
 }
 
 .about-text {
-    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: var(--light);
     border-radius: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);

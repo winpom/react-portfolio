@@ -6,6 +6,7 @@ section.resume-section {
 
 .resume-section {
     background-color: var(--dark);
+    padding: 15px;
 }
 
 .resume-section h1 {
