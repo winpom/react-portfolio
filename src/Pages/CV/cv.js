@@ -59,6 +59,12 @@ function ResumePage() {
                     <p><strong>Databases</strong>: MongoDB, MySQL, SQL, NoSQL</p>
                     <p><strong>Additional Skills</strong>: Agile Development, Mobile-First Design, Cross-Functional Collaboration, UI/UX Design, Certified ScrumMaster, Adobe Photoshop</p>
                     <h2>PROJECTS</h2>
+                    <p><strong>ReadyCheck</strong> | <a href="https://github.com/jasongalas/ready-check">GitHub Repository</a> | <a href="https://ready-check.onrender.com/">Deployed Project</a></p>
+                    <ul>
+                        <li>Summary: ReadyCheck is a simple social communication and scheduling app. It empowers users to create, manage, and participate in ReadyChecks, facilitating the organization of planned and impromptu events. From online gaming sessions to coordinating large groups at conferences, festivals, and vacations, ReadyCheck ensures seamless coordination and communication.</li>
+                        <li>Role: Project Lead, Full Stack Developer</li>
+                        <li>Tools: React.js, Node.js, GraphQL, Apollo Client, MongoDB, Socket.IO, Daisy UI</li>
+                    </ul>
                     <p><strong>The Doggy Dog Breed Quiz</strong> | <a href="https://github.com/ZachariahKB/dog-breed-quiz">GitHub Repository</a> | <a href="https://zachariahkb.github.io/dog-breed-quiz/">Deployed Project</a></p>
                     <ul>
                         <li>Summary: An engaging online quiz suggesting dog breeds based on user input. Leveraged existing free API using tiered filtering to produce meaningful results (despite very dirty data).</li>
@@ -72,11 +78,6 @@ function ResumePage() {
                         <li>Tools: HTML, CSS, JavaScript, jQuery, API</li>
                     </ul>
                     <p><strong>Personal Blog</strong> | <a href="https://github.com/winpom/personal-blog-challenge">GitHub Repository</a> | <a href="https://winpom.github.io/personal-blog-challenge/">Deployed Project</a></p>
-                    <ul>
-                        <li>Blog site allowing users to create new posts saved in local storage. Developed the entire project from scratch, utilizing local storage for data persistence to avoid backend complexities.</li>
-                        <li>Role: Sole Developer</li>
-                        <li>Tools: JavaScript, HTML, CSS</li>
-                    </ul>
                     <h2>EXPERIENCE</h2>
                     <div className="job-title">
                         <span><strong>Marketing Consultant – Multiple Clients</strong></span>

@@ -4,6 +4,12 @@ import "./style.css";
 function PortfolioPage() {
     const projects = [
         {
+            title: "ReadyCheck",
+            image: "/assets/images/readycheck.png",
+            deployedLink: "https://ready-check.onrender.com/",
+            githubLink: "https://github.com/jasongalas/ready-check"
+        },
+        {
             title: "Dog Breed Quiz",
             image: "/assets/images/dog-breed-quiz.png",
             deployedLink: "https://zachariahkb.github.io/dog-breed-quiz/",
