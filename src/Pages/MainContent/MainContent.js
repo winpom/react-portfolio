@@ -2,6 +2,7 @@ import React from 'react';
 import AboutPage from '../About/about';
 import PortfolioPage from '../Portfolio/portfolio';
 import CVPage from '../CV/cv';
+// import LifePage from '../Life/life';
 // import ContactPage from '../Contact/contact';
 
 function MainContent() {
@@ -16,6 +17,9 @@ function MainContent() {
             <section id="cv">
                 <CVPage />
             </section>
+            {/* <section id="life">
+                <LifePage />
+            </section> */}
             {/* <section id="contact">
                 <ContactPage />
             </section> */}

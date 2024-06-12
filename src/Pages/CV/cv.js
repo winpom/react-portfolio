@@ -45,7 +45,7 @@ function ResumePage() {
                 {/* <h1 className="increased-margins">Full Resume</h1> */}
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>
-                    <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br>
+                    <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br> Nationality: American |
                         LinkedIn: <a href="https://www.linkedin.com/in/Win-Pomerantz">/Win-Pomerantz</a> | Portfolio: WinPom.github.io | GitHub: <a href="https://github.com/winpom">/winpom</a></h3>
                     <p>
                         Full Stack Web Developer with a robust background in brand and digital marketing.
@@ -113,6 +113,13 @@ function ResumePage() {
                         <li>Introduced and executed digital marketing strategies, leading to record in-game purchases for Rainbow Six: Siege, Ubisoft’s flagship title.</li>
                         <li>Presented brand positioning to stakeholders, aligning marketing plans.</li>
                         <li>Managed digital content creative process from concept to execution for top titles, showcasing resourcefulness in managing tight timelines and creative constraints.</li>
+                    </ul>
+                    <h2>PERSONAL INTERESTS</h2>
+                    <ul className="education">
+                        <li><strong>Ceramic Sculpture</strong>: Starting at age 13, my love for ceramic sculpture has only grown with each creation. </li>
+                        <li><strong>Cooking and Baking</strong>: There are few greater sources of satisfaction than making something delicious!</li>
+                        <li><strong>Writing</strong>: From sitcom pilots to long-form fiction, I have always loved telling a story.</li>
+                        <li><strong>Traveling</strong>: Fortunate to have seen much of the world, and I'm always seeking the next adventure!</li>
                     </ul>
                     <h2>EDUCATION</h2>
                     <ul className="education">

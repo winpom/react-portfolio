@@ -13,6 +13,7 @@ function App() {
     { name: "About" },
     { name: "Portfolio" },
     { name: "CV" },
+    // { name: "Outside Work" },
     // { name: "Contact" }
   ]);
 
