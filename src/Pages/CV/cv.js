@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-function ResumePage() {
-    const downloadResume = () => {
+function CVPage() {
+    const downloadCV = () => {
         const anchor = document.createElement("a");
-        anchor.href = "/assets/Win-Pomerantz-Resume.pdf";
+        anchor.href = "/assets/Win-Pomerantz-CV.pdf";
         anchor.download = "Win-Pomerantz-CV.pdf";
         anchor.click();
     };
@@ -13,7 +13,7 @@ function ResumePage() {
         <section className="resume-section">
             <h1>My CV</h1>
             <div className="button-container">
-                <button onClick={downloadResume} className="download-button">Download CV as PDF</button>
+                <button onClick={downloadCV} className="download-button">Download CV as PDF</button>
             </div>
             <section className="proficiencies">
                 <div className="proficiency-list">
@@ -134,4 +134,4 @@ function ResumePage() {
     );
 }
 
-export default ResumePage;
+export default CVPage;
