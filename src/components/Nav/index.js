@@ -1,16 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "./style.css";
 
-function Nav(props) {
-    const {
-        pages = [],
-        setCurrentPage,
-        currentPage,
-    } = props;
-
-    useEffect(() => {
-        document.title = currentPage.name;
-    }, [currentPage]);
+function Nav({ pages, setCurrentPage, currentPage }) {
+    const handleScroll = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <nav className="nav-container">
@@ -22,7 +19,10 @@ function Nav(props) {
                     >
                         <span 
                             className="nav-link" 
-                            onClick={() => setCurrentPage(page)}
+                            onClick={() => {
+                                setCurrentPage(page);
+                                handleScroll(page.name.toLowerCase());
+                            }}
                         >
                             {page.name}
                         </span>

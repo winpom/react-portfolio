@@ -4,32 +4,38 @@ import "./style.css";
 function PortfolioPage() {
     const projects = [
         {
+            title: "ReadyCheck",
+            image: "/assets/images/portfolio-icons/readycheck.png",
+            deployedLink: "https://ready-check.onrender.com/",
+            githubLink: "https://github.com/jasongalas/ready-check"
+        },
+        {
             title: "Dog Breed Quiz",
-            image: "/assets/images/dog-breed-quiz.png",
+            image: "/assets/images/portfolio-icons/dog-breed-quiz.png",
             deployedLink: "https://zachariahkb.github.io/dog-breed-quiz/",
             githubLink: "https://github.com/ZachariahKB/dog-breed-quiz"
         },
         {
             title: "Text Editor",
-            image: "/assets/images/JATE.png",
+            image: "/assets/images/portfolio-icons/text-editor.png",
             deployedLink: "https://text-editor-4fwj.onrender.com/",
             githubLink: "https://github.com/winpom/text-editor"
         },
         {
             title: "Weather Dashboard",
-            image: "/assets/images/weather-dash.png",
+            image: "/assets/images/portfolio-icons/weather-dash.png",
             deployedLink: "https://winpom.github.io/weather-dashboard/",
             githubLink: "https://github.com/winpom/weather-dashboard"
         },
         {
             title: "The Regal Dog Blog",
-            image: "/assets/images/regal-dog.png",
+            image: "/assets/images/portfolio-icons/regal-dog.png",
             deployedLink: "https://winpom.github.io/personal-blog-challenge/",
             githubLink: "https://github.com/winpom/personal-blog-challenge"
         },
         {
             title: "Payroll Tracker",
-            image: "/assets/images/payroll-tracker.png",
+            image: "/assets/images/portfolio-icons/payroll-tracker.png",
             deployedLink: "https://winpom.github.io/payroll-tracker/",
             githubLink: "https://github.com/winpom/payroll-tracker"
         },

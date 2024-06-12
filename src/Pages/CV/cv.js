@@ -5,15 +5,15 @@ function ResumePage() {
     const downloadResume = () => {
         const anchor = document.createElement("a");
         anchor.href = "/assets/Win-Pomerantz-Resume.pdf";
-        anchor.download = "Win-Pomerantz-Resume.pdf";
+        anchor.download = "Win-Pomerantz-CV.pdf";
         anchor.click();
     };
 
     return (
         <section className="resume-section">
-            <h1>My Resume</h1>
+            <h1>My CV</h1>
             <div className="button-container">
-                <button onClick={downloadResume} className="download-button">Download Resume as PDF</button>
+                <button onClick={downloadResume} className="download-button">Download CV as PDF</button>
             </div>
             <section className="proficiencies">
                 <div className="proficiency-list">
@@ -42,10 +42,10 @@ function ResumePage() {
                 </div>
             </section>
             <section className="increased-padding">
-                <h1 className="increased-margins">Full Resume</h1>
+                {/* <h1 className="increased-margins">Full Resume</h1> */}
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>
-                    <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br>
+                    <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br> Nationality: American |
                         LinkedIn: <a href="https://www.linkedin.com/in/Win-Pomerantz">/Win-Pomerantz</a> | Portfolio: WinPom.github.io | GitHub: <a href="https://github.com/winpom">/winpom</a></h3>
                     <p>
                         Full Stack Web Developer with a robust background in brand and digital marketing.
@@ -59,6 +59,12 @@ function ResumePage() {
                     <p><strong>Databases</strong>: MongoDB, MySQL, SQL, NoSQL</p>
                     <p><strong>Additional Skills</strong>: Agile Development, Mobile-First Design, Cross-Functional Collaboration, UI/UX Design, Certified ScrumMaster, Adobe Photoshop</p>
                     <h2>PROJECTS</h2>
+                    <p><strong>ReadyCheck</strong> | <a href="https://github.com/jasongalas/ready-check">GitHub Repository</a> | <a href="https://ready-check.onrender.com/">Deployed Project</a></p>
+                    <ul>
+                        <li>Summary: ReadyCheck is a simple social communication and scheduling app. It empowers users to create, manage, and participate in ReadyChecks, facilitating the organization of planned and impromptu events. From online gaming sessions to coordinating large groups at conferences, festivals, and vacations, ReadyCheck ensures seamless coordination and communication.</li>
+                        <li>Role: Project Lead, Full Stack Developer</li>
+                        <li>Tools: React.js, Node.js, GraphQL, Apollo Client, MongoDB, Socket.IO, Daisy UI</li>
+                    </ul>
                     <p><strong>The Doggy Dog Breed Quiz</strong> | <a href="https://github.com/ZachariahKB/dog-breed-quiz">GitHub Repository</a> | <a href="https://zachariahkb.github.io/dog-breed-quiz/">Deployed Project</a></p>
                     <ul>
                         <li>Summary: An engaging online quiz suggesting dog breeds based on user input. Leveraged existing free API using tiered filtering to produce meaningful results (despite very dirty data).</li>
@@ -72,11 +78,6 @@ function ResumePage() {
                         <li>Tools: HTML, CSS, JavaScript, jQuery, API</li>
                     </ul>
                     <p><strong>Personal Blog</strong> | <a href="https://github.com/winpom/personal-blog-challenge">GitHub Repository</a> | <a href="https://winpom.github.io/personal-blog-challenge/">Deployed Project</a></p>
-                    <ul>
-                        <li>Blog site allowing users to create new posts saved in local storage. Developed the entire project from scratch, utilizing local storage for data persistence to avoid backend complexities.</li>
-                        <li>Role: Sole Developer</li>
-                        <li>Tools: JavaScript, HTML, CSS</li>
-                    </ul>
                     <h2>EXPERIENCE</h2>
                     <div className="job-title">
                         <span><strong>Marketing Consultant – Multiple Clients</strong></span>
@@ -112,6 +113,13 @@ function ResumePage() {
                         <li>Introduced and executed digital marketing strategies, leading to record in-game purchases for Rainbow Six: Siege, Ubisoft’s flagship title.</li>
                         <li>Presented brand positioning to stakeholders, aligning marketing plans.</li>
                         <li>Managed digital content creative process from concept to execution for top titles, showcasing resourcefulness in managing tight timelines and creative constraints.</li>
+                    </ul>
+                    <h2>PERSONAL INTERESTS</h2>
+                    <ul className="education">
+                        <li><strong>Ceramic Sculpture</strong>: Starting at age 13, my love for ceramic sculpture has only grown with each creation. </li>
+                        <li><strong>Cooking and Baking</strong>: There are few greater sources of satisfaction than making something delicious!</li>
+                        <li><strong>Writing</strong>: From sitcom pilots to long-form fiction, I have always loved telling a story.</li>
+                        <li><strong>Traveling</strong>: Fortunate to have seen much of the world, and I'm always seeking the next adventure!</li>
                     </ul>
                     <h2>EDUCATION</h2>
                     <ul className="education">
