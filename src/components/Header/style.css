@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-right: 1rem;
-    padding-left: 1rem;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
     position: relative; 
 
     @media (max-width: 768px) {
@@ -16,7 +16,7 @@
 }
 
 .banner-img {
-    width: 100vw;
+    width: 99.5%;
     height: auto;
     max-height: 170px;
     object-fit: cover;
