@@ -48,36 +48,53 @@ function CVPage() {
                     <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | San Francisco, CA<br></br> Nationality: American |
                         LinkedIn: <a href="https://www.linkedin.com/in/Win-Pomerantz">/Win-Pomerantz</a> | Portfolio: WinPom.github.io | GitHub: <a href="https://github.com/winpom">/winpom</a></h3>
                     <p>
-                        Full Stack Web Developer with a robust background in brand and digital marketing.
-                        Recently completed a Full Stack Web Development certificate from the University of California, Berkeley,
-                        bringing expertise in JavaScript, React, Node.js, and other modern web technologies. Known for creativity,
-                        teamwork, resourcefulness, and executing projects from ideation to deployment for startups and Fortune 500’s
-                        alike. Lifelong learner and enthusiastic team player with a strong sense of humor.
+                        Passionate Full Stack Web Developer with expertise in JavaScript, React, Node.js, and configuration management.
+                        Recently completed an intensive Full Stack Web Development course at the University of California, Berkeley.
+                        Demonstrated ability to execute projects from ideation to deployment, solving complex problems and delivering
+                        high-quality solutions in international settings. Skilled in collaborating with cross-functional teams and
+                        enhancing front-end user experiences, leveraging a strong background in brand and digital marketing. A proactive
+                        and enthusiastic team player, as well as an independent contributor, eager to contribute and grow in a dynamic
+                        development environment.
                     </p>
+                    <h2>SOFT SKILLS</h2>
+                    <ul>
+                        <li>Proficient in project and time management</li>
+                        <li>Skilled in stakeholder and people management</li>
+                        <li>Experienced team lead with expertise in configuration management</li>
+                        <li>Capable of providing strategic vision and direction</li>
+                        <li>Adept at implementing and adapting complex technologies</li>
+                        <li>Skilled at navigating and contributing to large, international organizations</li>
+                        <li>Excellent communication and collaboration skills</li>
+                    </ul>
                     <h2>TECHNICAL SKILLS</h2>
                     <p><strong>Languages/Frameworks</strong>: JavaScript (ES6+), HTML5, CSS3, React, Node.js, Express, Handlebars, jQuery</p>
                     <p><strong>Databases</strong>: MongoDB, MySQL, SQL, NoSQL</p>
-                    <p><strong>Additional Skills</strong>: Agile Development, Mobile-First Design, Cross-Functional Collaboration, UI/UX Design, Certified ScrumMaster, Adobe Photoshop</p>
+                    <p><strong>Tools/Technologies</strong>: Git, Agile Development, CI/CD, DevOps, Adobe Photoshop, RESTful APIs, Certified ScrumMaster</p>
                     <h2>PROJECTS</h2>
+                    <p><strong>ReadyCheck Mobile</strong> | <a href="https://github.com/jasongalas/readycheck-mobile">GitHub Repository</a> | Work In Progress</p>
+                    <ul>
+                        <li>Summary: Utilizing my spare time to develop the ReadyCheck webapp for deployment in a live mobile environment, focusing on optimization, scalability, and virtualization. Incorporating best practices for end-user and potential investor readiness.</li>
+                        <li>Role: Project Lead (team of four), Full Stack Developer </li>
+                        <li>Tools: React Native, Expo, AWS</li>
+                    </ul>
                     <p><strong>ReadyCheck</strong> | <a href="https://github.com/jasongalas/ready-check">GitHub Repository</a> | <a href="https://ready-check.onrender.com/">Deployed Project</a></p>
                     <ul>
-                        <li>Summary: ReadyCheck is a simple social communication and scheduling app. It empowers users to create, manage, and participate in ReadyChecks, facilitating the organization of planned and impromptu events. From online gaming sessions to coordinating large groups at conferences, festivals, and vacations, ReadyCheck ensures seamless coordination and communication.</li>
-                        <li>Role: Project Lead, Full Stack Developer</li>
+                        <li>Summary: Led a team to create an application for users to organize events quickly and efficiently. Designed for scalability, implemented Git branch protection, and managed code integrity for seamless collaboration.</li>
+                        <li>Role: Project Lead (team of four), Full Stack Developer</li>
                         <li>Tools: React.js, Node.js, GraphQL, Apollo Client, MongoDB, Socket.IO, Daisy UI</li>
                     </ul>
                     <p><strong>The Doggy Dog Breed Quiz</strong> | <a href="https://github.com/ZachariahKB/dog-breed-quiz">GitHub Repository</a> | <a href="https://zachariahkb.github.io/dog-breed-quiz/">Deployed Project</a></p>
                     <ul>
-                        <li>Summary: An engaging online quiz suggesting dog breeds based on user input. Leveraged existing free API using tiered filtering to produce meaningful results (despite very dirty data).</li>
-                        <li>Role: Project Lead, Front End & Back End</li>
-                        <li>Tools: HTML, CSS, JavaScript, API, Tailwind CSS</li>
+                        <li>Summary: Created a multi-question quiz that processes user input to generate specific dog breed results using an online API. Standardized inconsistent data into hard-coded generalized attribute categories to ensure user answers would lead to meaningful outputs.</li>
+                        <li>Role: Project Lead (team of three), Full Stack Developer</li>
+                        <li>Tools: HTML, CSS, JavaScript, Bootstrap, API, Tailwind CSS</li>
                     </ul>
                     <p><strong>WeatherApp</strong> | <a href="https://winpom.github.io/weather-dashboard/">GitHub Repository</a> | <a href="https://github.com/winpom/weather-dashboard">Deployed Project</a></p>
                     <ul>
-                        <li>Summary: Provides current and future weather forecasts for cities. Implemented APIs efficiently to provide real-time weather data, optimizing the app for performance and usability.</li>
+                        <li>Summary: Developed an application that utilized local storage to save and display recent user searches. Designed to take user inputs and provide a week's weather forecast for the specified location, the application made two API queries: the first to retrieve city coordinates, and the second to generate the weather data based on those coordinates.</li>
                         <li>Role: Sole Developer</li>
-                        <li>Tools: HTML, CSS, JavaScript, jQuery, API</li>
+                        <li>Tools: HTML, CSS, JavaScript, jQuery, API, Local Storage</li>
                     </ul>
-                    <p><strong>Personal Blog</strong> | <a href="https://github.com/winpom/personal-blog-challenge">GitHub Repository</a> | <a href="https://winpom.github.io/personal-blog-challenge/">Deployed Project</a></p>
                     <h2>EXPERIENCE</h2>
                     <div className="job-title">
                         <span><strong>Marketing Consultant – Multiple Clients</strong></span>
