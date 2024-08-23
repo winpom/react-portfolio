@@ -101,11 +101,12 @@ function CVPage() {
                         <span className="location"><i>San Francisco, CA</i></span>
                     </div>
                     <p>Sia Partners (Consulting) Nov 2021 – Apr 2023</p>
+                    <div> Prologis (<i>Commercial Real Estate</i>)</div>
                     <ul>
                         <li>Directed strategy and execution for the new Prologis marketplace brand, identifying opportunities for brand expansion.</li>
                         <li>Launched a new marketplace website, collaborating with developers, product managers, and executives, demonstrating resourcefulness in integrating diverse team inputs.</li>
                     </ul>
-                    <div> Prologis (Commercial Real Estate)</div>
+                    <div> eBay (<i>Peer-to-Peer Online Marketplace</i>)</div>
                     <ul>
                         <li>Designed marketing strategies, budgets, and tactics for focus categories.</li>
                         <li>Improved internal processes, enhancing quarterly marketing strategies.</li>
