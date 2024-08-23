@@ -9,12 +9,11 @@ function AboutPage() {
         <section className="about-text">
             <h2>Software Engineer, Marketer, Lifelong Student</h2>
             <p className="centered">
-                I'm Win Pomerantz, an marketer turned aspiring web developer. With over seven years
-                of experience in brand and digital marketing at companies like Charles Schwab, Ubisoft, and eBay, I've
-                developed a strong understanding of the customer, enabling me to better craft engaging narratives and user experiences.
-                With a bachelors degree from Emory University and MBA from UC Berkeley's Haas School of Business,
-                I'm currently diving into the world of coding through the full-time UC Berkeley Coding Bootcamp.
-                I'm passionate about blending creativity with technical skills to build captivating web experiences.
+                I'm Win Pomerantz, a former marketer turned full-stack web developer. After over seven years at leading companies like Charles Schwab, 
+                Ubisoft, and eBay, where I honed a deep understanding of customer engagement and narrative crafting, I've pivoted to software engineering. 
+                I hold a bachelor's degree from Emory University and an MBA from UC Berkeley's Haas School of Business. Currently, I am enhancing my 
+                technical toolkit at the UC Berkeley Coding Bootcamp, focusing on building scalable, user-friendly web applications. With a passion for 
+                merging creative insights with robust technical solutions, I am eager to develop web experiences that are not only functional but also engaging.
             </p>
         </section>
     </section>
