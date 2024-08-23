@@ -71,7 +71,7 @@ function CVPage() {
                     <p><strong>Databases</strong>: MongoDB, MySQL, SQL, NoSQL</p>
                     <p><strong>Tools/Technologies</strong>: Git, Agile Development, CI/CD, DevOps, Adobe Photoshop, RESTful APIs, Certified ScrumMaster</p>
                     <h2>PROJECTS</h2>
-                    <p><strong>ReadyCheck Mobile</strong> | <a href="https://github.com/jasongalas/readycheck-mobile">GitHub Repository</a> | Work In Progress</p>
+                    <p><strong>ReadyCheck Mobile</strong> | <a href="https://github.com/winpom/readycheck-mobile">GitHub Repository</a> | Work In Progress</p>
                     <ul>
                         <li>Summary: Utilizing my spare time to develop the ReadyCheck webapp for deployment in a live mobile environment, focusing on optimization, scalability, and virtualization. Incorporating best practices for end-user and potential investor readiness.</li>
                         <li>Role: Project Lead (team of four), Full Stack Developer </li>
