@@ -117,7 +117,7 @@ function CVPage() {
                         <span><strong>MBA Marketing Intern</strong></span>
                         <span className="location"><i>San Francisco, CA</i></span>
                     </div>
-                    <p>Ridepanda (eBikes) Jun 2020 – Sep 2020</p>
+                    <p>Ridepanda (<i>eBikes</i>) Jun 2020 – Sep 2020</p>
                     <ul>
                         <li>Pioneered inaugural marketing strategy, defined brand identity, and identified target audiences through AB testing and research.</li>
                         <li>Achieved a milestone of 100 customers pre-launch, enabling successful fundraising efforts, demonstrating resourcefulness in startup environment.</li>
@@ -126,7 +126,7 @@ function CVPage() {
                         <span><strong>Digital Marketing Coordinator</strong></span>
                         <span className="location"><i>San Francisco, CA</i></span>
                     </div>
-                    <p>Ubisoft Inc. (Video Game Publisher) Aug 2018–Jul 2019</p>
+                    <p>Ubisoft Inc. (<i>Video Game Publisher</i>) Aug 2018–Jul 2019</p>
                     <ul>
                         <li>Introduced and executed digital marketing strategies, leading to record in-game purchases for Rainbow Six: Siege, Ubisoft’s flagship title.</li>
                         <li>Presented brand positioning to stakeholders, aligning marketing plans.</li>
@@ -136,7 +136,7 @@ function CVPage() {
                     <ul className="education">
                         <li><strong>Ceramic Sculpture</strong>: Starting at age 13, my love for ceramic sculpture has only grown with each creation. </li>
                         <li><strong>Cooking and Baking</strong>: There are few greater sources of satisfaction than making something delicious!</li>
-                        <li><strong>Writing</strong>: From sitcom pilots to long-form fiction, I have always loved telling a story.</li>
+                        <li><strong>Writing</strong>: From sitcom pilots to long-form fiction, I have always loved telling stories.</li>
                         <li><strong>Traveling</strong>: Fortunate to have seen much of the world, and I'm always seeking the next adventure!</li>
                     </ul>
                     <h2>EDUCATION</h2>
