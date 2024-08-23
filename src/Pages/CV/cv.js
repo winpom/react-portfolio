@@ -89,7 +89,7 @@ function CVPage() {
                         <li>Role: Project Lead (team of three), Full Stack Developer</li>
                         <li>Tools: HTML, CSS, JavaScript, Bootstrap, API, Tailwind CSS</li>
                     </ul>
-                    <p><strong>WeatherApp</strong> | <a href="https://winpom.github.io/weather-dashboard/">GitHub Repository</a> | <a href="https://github.com/winpom/weather-dashboard">Deployed Project</a></p>
+                    <p><strong>WeatherApp</strong> | <a href="https://github.com/winpom/weather-dashboard">GitHub Repository</a> | <a href="https://winpom.github.io/weather-dashboard/">Deployed Project</a></p>
                     <ul>
                         <li>Summary: Developed an application that utilized local storage to save and display recent user searches. Designed to take user inputs and provide a week's weather forecast for the specified location, the application made two API queries: the first to retrieve city coordinates, and the second to generate the weather data based on those coordinates.</li>
                         <li>Role: Sole Developer</li>
