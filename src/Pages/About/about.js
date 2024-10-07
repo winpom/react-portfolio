@@ -14,12 +14,12 @@ function AboutPage() {
                 technologies like JavaScript, React, Node.js, and MongoDB. This has enabled me to pivot into software engineering 
                 after over seven years working in marketing at leading companies such as Charles Schwab, Ubisoft, and eBay, where 
                 I developed a deep understanding of customer engagement and storytelling.
-                <br>
+                <br />                
+                <br />
                 I hold a bachelor's degree from Emory University and an MBA from UC Berkeley's Haas School of Business. 
                 Having recently moved to Haarlem to join my partner and pursue the next chapter of my career, I am eager to bring 
                 my blend of creative thinking, technical skills, and business acumen to new challenges. My goal is to build web 
                 experiences that are not only highly functional but also engaging and meaningful to users.
-                </br>
             </p>
         </section>
     </section>
