@@ -9,11 +9,17 @@ function AboutPage() {
         <section className="about-text">
             <h2>Software Engineer, Marketer, Lifelong Student</h2>
             <p className="centered">
-                I'm Win Pomerantz, a former marketer turned full-stack web developer. After over seven years at leading companies like Charles Schwab, 
-                Ubisoft, and eBay, where I honed a deep understanding of customer engagement and narrative crafting, I've pivoted to software engineering. 
-                I hold a bachelor's degree from Emory University and an MBA from UC Berkeley's Haas School of Business. Currently, I am enhancing my 
-                technical toolkit at the UC Berkeley Coding Bootcamp, focusing on building scalable, user-friendly web applications. With a passion for 
-                merging creative insights with robust technical solutions, I am eager to develop web experiences that are not only functional but also engaging.
+                I'm Win Pomerantz, a full-stack web developer with a passion for creating scalable, user-friendly web applications. 
+                After completing an intensive coding bootcamp at UC Berkeley, I have gained hands-on experience with modern web 
+                technologies like JavaScript, React, Node.js, and MongoDB. This has enabled me to pivot into software engineering 
+                after over seven years working in marketing at leading companies such as Charles Schwab, Ubisoft, and eBay, where 
+                I developed a deep understanding of customer engagement and storytelling.
+                <br>
+                I hold a bachelor's degree from Emory University and an MBA from UC Berkeley's Haas School of Business. 
+                Having recently moved to Haarlem to join my partner and pursue the next chapter of my career, I am eager to bring 
+                my blend of creative thinking, technical skills, and business acumen to new challenges. My goal is to build web 
+                experiences that are not only highly functional but also engaging and meaningful to users.
+                </br>
             </p>
         </section>
     </section>
