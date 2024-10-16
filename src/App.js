@@ -1,9 +1,9 @@
 import React, { useState, 
   // useEffect 
 } from "react";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Header from "./components/Header/header.js";
+import Nav from "./components/Nav/nav.js";
+import Footer from "./components/Footer/footer.js";
 import MainContent from "./Pages/MainContent/MainContent.js";
 
 // site components
@@ -11,8 +11,8 @@ import MainContent from "./Pages/MainContent/MainContent.js";
 function App() {
   const [pages] = useState([
     { name: "About" },
-    { name: "Portfolio" },
     { name: "CV" },
+    { name: "Portfolio" },
     // { name: "Outside Work" },
     // { name: "Contact" }
   ]);

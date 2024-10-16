@@ -10,7 +10,7 @@ function CVPage() {
     };
 
     return (
-        <section className="resume-section">
+        <section className="resume-section" id="cv">
             <h1>My CV</h1>
             <div className="button-container">
                 <button onClick={downloadCV} className="download-button">Download CV as PDF</button>
@@ -24,7 +24,7 @@ function CVPage() {
                         <li>JavaScript</li>
                         <li>jQuery</li>
                         <li>Responsive design</li>
-                        <li>React</li>
+                        <li>React, React Native</li>
                         <li>Handlebars</li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@ function CVPage() {
                 {/* <h1 className="increased-margins">Full Resume</h1> */}
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>
-                    <h3>Phone: +1 (415) 710-5570 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> | Haarlem, NL<br></br> Nationality: American |
+                    <h3>Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a> |  Nationality: American | Haarlem, NL<br></br>
                         LinkedIn: <a href="https://www.linkedin.com/in/Win-Pomerantz">/Win-Pomerantz</a> | Portfolio: WinPom.github.io | GitHub: <a href="https://github.com/winpom">/winpom</a></h3>
                     <p>
                         Passionate Full Stack Web Developer with expertise in JavaScript, React, Node.js, and configuration management.
