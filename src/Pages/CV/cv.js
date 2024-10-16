@@ -10,7 +10,7 @@ function CVPage() {
     };
 
     return (
-        <section className="resume-section">
+        <section className="resume-section" id="cv">
             <h1>My CV</h1>
             <div className="button-container">
                 <button onClick={downloadCV} className="download-button">Download CV as PDF</button>

@@ -11,11 +11,11 @@ function MainContent() {
             <section id="about">
                 <AboutPage />
             </section>
-            <section id="portfolio">
-                <PortfolioPage />
-            </section>
             <section id="cv">
                 <CVPage />
+            </section>
+            <section id="portfolio">
+                <PortfolioPage />
             </section>
             {/* <section id="life">
                 <LifePage />

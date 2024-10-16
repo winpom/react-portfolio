@@ -42,7 +42,7 @@ function PortfolioPage() {
     ];
 
     return (
-        <section className="portfolio-section">
+        <section className="portfolio-section" id="portfolio">
             <h1>My Portfolio</h1>
             <h2>Here are a few projects I'm proud of:</h2>
             <div className="project-grid">
@@ -53,6 +53,8 @@ function PortfolioPage() {
                             <div className="overlay">
                                 <div className="project-links">
                                     <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Deployed App</a>
+                                </div>
+                                <div className="project-links">
                                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                                 </div>
                             </div>
