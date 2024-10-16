@@ -11,14 +11,18 @@ function Nav({ pages, setCurrentPage, currentPage }) {
 
     return (
         <nav className="nav-container">
+            <section>
+                <img src="/assets/images/wp-logo.png" alt="Win Pomerantz Logo"
+                    className="logo" />
+            </section>
             <ul className="nav-list">
                 {pages.map((page) => (
-                    <li 
-                        className={`nav-item ${currentPage.name === page.name ? 'active' : ''}`} 
+                    <li
+                        className={`nav-item ${currentPage.name === page.name ? 'active' : ''}`}
                         key={page.name}
                     >
-                        <span 
-                            className="nav-link" 
+                        <span
+                            className="nav-link"
                             onClick={() => {
                                 setCurrentPage(page);
                                 handleScroll(page.name.toLowerCase());
