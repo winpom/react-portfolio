@@ -12,7 +12,7 @@ section.resume-section {
 .resume-section h1 {
     color: var(--light);
     font-size: 2em;
-    padding-bottom: 0;
+    padding-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 

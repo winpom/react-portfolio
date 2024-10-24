@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function AboutPage() {
-    return <section className="about-section">
+    return <section className="about-section" id="about">
         {/* <h1>About Me</h1> */}
         <img src="../../assets/images/about-image.png" alt="Win Pomerantz Headshot"
             className="about-banner" />
