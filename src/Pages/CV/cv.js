@@ -45,7 +45,7 @@ function CVPage() {
                 {/* <h1 className="increased-margins">Full Resume</h1> */}
                 <div className="resume-content">
                     <h1><strong>WIN POMERANTZ</strong></h1>
-                    <h3>Phone: +31 61 439 0057 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a><br></br>
+                    <h3>Phone: 06 14 39 00 57 | Email: <a href="mailto:Win.Pomerantz@gmail.com">Win.Pomerantz@gmail.com</a><br></br>
                         Haarlem, NL | Nationality: American | LinkedIn: <a href="https://www.linkedin.com/in/Win-Pomerantz">/Win-Pomerantz</a> | GitHub: <a href="https://github.com/winpom">/winpom</a></h3>
                     <p>
                         Passionate Full Stack Web Developer with expertise in JavaScript, React, Node.js, and configuration management.
