@@ -18,31 +18,31 @@ function PortfolioPage() {
             title: "Dog Breed Quiz",
             image: "/assets/images/portfolio-icons/dog-breed-quiz.png",
             deployedLink: "https://zachariahkb.github.io/dog-breed-quiz/",
-            githubLink: "https://github.com/ZachariahKB/dog-breed-quiz"
+            gitHubLink: "https://github.com/ZachariahKB/dog-breed-quiz"
         },
         {
             title: "Text Editor",
             image: "/assets/images/portfolio-icons/text-editor.png",
             deployedLink: "https://text-editor-4fwj.onrender.com/",
-            githubLink: "https://github.com/winpom/text-editor"
+            gitHubLink: "https://github.com/winpom/text-editor"
         },
         {
             title: "Weather Dashboard",
             image: "/assets/images/portfolio-icons/weather-dash.png",
             deployedLink: "https://winpom.github.io/weather-dashboard/",
-            githubLink: "https://github.com/winpom/weather-dashboard"
+            gitHubLink: "https://github.com/winpom/weather-dashboard"
         },
         {
             title: "The Regal Dog Blog",
             image: "/assets/images/portfolio-icons/regal-dog.png",
             deployedLink: "https://winpom.github.io/personal-blog-challenge/",
-            githubLink: "https://github.com/winpom/personal-blog-challenge"
+            gitHubLink: "https://github.com/winpom/personal-blog-challenge"
         },
         {
             title: "Payroll Tracker",
             image: "/assets/images/portfolio-icons/payroll-tracker.png",
             deployedLink: "https://winpom.github.io/payroll-tracker/",
-            githubLink: "https://github.com/winpom/payroll-tracker"
+            gitHubLink: "https://github.com/winpom/payroll-tracker"
         },
     ];
 
@@ -59,9 +59,11 @@ function PortfolioPage() {
                                 <div className="project-links">
                                     <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Deployed App</a>
                                 </div>
-                                <div className="project-links">
-                                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-                                </div>
+                                {project.gitHubLink && (
+                                    <div className="project-links">
+                                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>

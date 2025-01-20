@@ -70,7 +70,7 @@ function CVPage() {
                     <p><strong>Languages/Frameworks</strong>: JavaScript (ES6+), HTML5, CSS3, React, Node.js, Express, Handlebars, jQuery</p>
                     <p><strong>Databases</strong>: MongoDB, MySQL, SQL, NoSQL</p>
                     <p><strong>Tools/Technologies</strong>: Git, Agile Development, CI/CD, DevOps, Adobe Photoshop, RESTful APIs, Certified ScrumMaster</p>
-                    <h2>PROJECTS</h2>
+                    <h2>PROJECT HIGHLIGHTS</h2>
                     <p><strong>Alexia Home Designs</strong> | <a href="https://www.alexiahomedesigns.com/">Deployed Project</a></p>
                     <ul>
                         <li>Summary: Designed and developed a professional website for Alexia Home Designs, adhering to the client’s preferred platform, WordPress. Delivered a user-friendly interface and responsive design, aligning with the client’s brand vision and resulting in a highly satisfied customer.</li>
@@ -80,8 +80,8 @@ function CVPage() {
                     <p><strong>ReadyCheck Mobile</strong> | <a href="https://github.com/winpom/readycheck-mobile">GitHub Repository</a> | Work In Progress</p>
                     <ul>
                         <li>Summary: Utilizing my spare time to develop the ReadyCheck webapp for deployment in a live mobile environment, focusing on optimization, scalability, and virtualization. Incorporating best practices for end-user and potential investor readiness.</li>
-                        <li>Role: Project Lead (team of four), Full Stack Developer </li>
-                        <li>Tools: React Native, Expo, AWS</li>
+                        <li>Role: Sole Developer </li>
+                        <li>Tools: React Native, Expo, AWS, socket.io</li>
                     </ul>
                     <p><strong>ReadyCheck</strong> | <a href="https://github.com/jasongalas/ready-check">GitHub Repository</a> | <a href="https://ready-check.onrender.com/">Deployed Project</a></p>
                     <ul>
@@ -101,7 +101,7 @@ function CVPage() {
                         <li>Role: Sole Developer</li>
                         <li>Tools: HTML, CSS, JavaScript, jQuery, API, Local Storage</li>
                     </ul>
-                    <h2>EXPERIENCE</h2>
+                    <h2>EXPERIENCE HIGHLIGHTS</h2>
                     <div className="job-title">
                         <span><strong>Marketing Consultant – Multiple Clients</strong></span>
                         <span className="location"><i>San Francisco, CA</i></span>
