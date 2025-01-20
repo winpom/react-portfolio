@@ -4,6 +4,11 @@ import "./style.css";
 function PortfolioPage() {
     const projects = [
         {
+            title: "Alexia Home Designs",
+            image: "/assets/images/portfolio-icons/alexia-home-designs.png",
+            deployedLink: "https://www.alexiahomedesigns.com/",
+        },
+        {
             title: "ReadyCheck",
             image: "/assets/images/portfolio-icons/readycheck.png",
             deployedLink: "https://ready-check.onrender.com/",
